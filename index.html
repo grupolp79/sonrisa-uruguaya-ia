@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sonrisa Uruguaya, clínica dental en Montevideo. Limpieza, blanqueamiento, ortodoncia y urgencias odontológicas.">
+  <title>Sonrisa Uruguaya | Clínica Dental</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Barra de navegación ===== -->
+  <header class="navbar">
+    <div class="contenedor navbar-contenido">
+      <a href="#inicio" class="logo">
+        <img src="img/favicon.svg" alt="" width="32" height="32">
+        <span>Sonrisa <strong>Uruguaya</strong></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+
+      <nav class="menu" id="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#urgencias">Urgencias</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="/help" class="btn-nav">Centro de ayuda</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Inicio ===== -->
+  <section class="hero" id="inicio">
+    <div class="contenedor hero-contenido">
+      <div class="hero-texto">
+        <span class="etiqueta">Clínica dental en Montevideo</span>
+        <h1>Cuidamos tu sonrisa con atención <span class="resaltado">cercana y profesional</span></h1>
+        <p>En Sonrisa Uruguaya te acompañamos en cada consulta, desde una limpieza de rutina hasta un tratamiento de ortodoncia. Y si surge una urgencia, estamos todos los días.</p>
+        <div class="hero-botones">
+          <button class="btn btn-primario" data-abrir-chat>💬 Hablar con Sofía</button>
+          <a href="#servicios" class="btn btn-secundario">Ver servicios</a>
+        </div>
+      </div>
+
+      <div class="hero-tarjeta">
+        <div class="dato">
+          <span class="dato-icono">🕘</span>
+          <div>
+            <strong>Lun a Vie</strong>
+            <p>09:00 a 18:00</p>
+          </div>
+        </div>
+        <div class="dato">
+          <span class="dato-icono">📅</span>
+          <div>
+            <strong>Sábados</strong>
+            <p>09:00 a 13:00</p>
+          </div>
+        </div>
+        <div class="dato">
+          <span class="dato-icono">🚑</span>
+          <div>
+            <strong>Urgencias</strong>
+            <p>Todos los días</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Servicios ===== -->
+  <section class="seccion" id="servicios">
+    <div class="contenedor">
+      <h2 class="titulo">Nuestros servicios</h2>
+      <p class="subtitulo">Todo lo que necesitás para mantener tu salud bucal.</p>
+
+      <div class="grilla-servicios">
+        <article class="servicio">
+          <span class="servicio-icono">🦷</span>
+          <h3>Limpieza dental</h3>
+          <p>Eliminamos placa y sarro para mantener dientes y encías sanos.</p>
+        </article>
+        <article class="servicio">
+          <span class="servicio-icono">✨</span>
+          <h3>Blanqueamiento</h3>
+          <p>Tratamiento profesional para devolverle luminosidad a tu sonrisa.</p>
+        </article>
+        <article class="servicio">
+          <span class="servicio-icono">😁</span>
+          <h3>Ortodoncia</h3>
+          <p>Corrección de la posición de los dientes con seguimiento profesional.</p>
+        </article>
+        <article class="servicio">
+          <span class="servicio-icono">🚨</span>
+          <h3>Urgencias</h3>
+          <p>Atención de urgencias odontológicas todos los días, incluso fuera de horario.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Horarios ===== -->
+  <section class="seccion seccion-clara" id="horarios">
+    <div class="contenedor">
+      <h2 class="titulo">Horarios de atención</h2>
+      <p class="subtitulo">Te esperamos de lunes a sábado.</p>
+
+      <table class="tabla-horarios">
+        <tr>
+          <td>Lunes a viernes</td>
+          <td>09:00 – 18:00</td>
+        </tr>
+        <tr>
+          <td>Sábados</td>
+          <td>09:00 – 13:00</td>
+        </tr>
+        <tr>
+          <td>Domingos</td>
+          <td>Solo urgencias</td>
+        </tr>
+      </table>
+      <p class="nota">Fuera de este horario las urgencias se atienden a través del número de guardia.</p>
+    </div>
+  </section>
+
+  <!-- ===== Urgencias ===== -->
+  <section class="seccion" id="urgencias">
+    <div class="contenedor">
+      <h2 class="titulo">Atención de urgencias</h2>
+      <p class="subtitulo">¿Dolor fuerte, un golpe o un diente roto? No esperes.</p>
+
+      <div class="grilla-urgencias">
+        <div class="caja caja-info">
+          <h3>🚑 Guardia todos los días</h3>
+          <p>Atendemos urgencias odontológicas los 7 días de la semana. Fuera del horario habitual, la atención se solicita llamando al número de guardia de la clínica.</p>
+        </div>
+        <div class="caja caja-alerta">
+          <h3>⚠️ Urgencias pediátricas</h3>
+          <p>No atendemos urgencias de <strong>menores de 12 años</strong>. En esos casos, acudí al <strong>Hospital Pediátrico más cercano</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Preguntas frecuentes ===== -->
+  <section class="seccion seccion-clara" id="preguntas">
+    <div class="contenedor">
+      <h2 class="titulo">Preguntas frecuentes</h2>
+      <p class="subtitulo">Las consultas que más nos hacen en recepción.</p>
+
+      <div class="faq">
+        <details>
+          <summary>¿Qué servicios ofrecen?</summary>
+          <p>Limpieza dental, blanqueamiento, ortodoncia y atención de urgencias odontológicas.</p>
+        </details>
+        <details>
+          <summary>¿Atienden los domingos?</summary>
+          <p>Los domingos no hay atención habitual, pero sí atendemos urgencias a través del número de guardia.</p>
+        </details>
+        <details>
+          <summary>¿Atienden niños?</summary>
+          <p>No atendemos urgencias pediátricas en menores de 12 años; esos casos se derivan al Hospital Pediátrico más cercano. Para consultas de rutina, consultanos directamente.</p>
+        </details>
+        <details>
+          <summary>¿Cómo saco un turno o consulto precios?</summary>
+          <p>Por el momento esa información se brinda directamente en la clínica. Podés hacer tus consultas generales a nuestra asistente virtual.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Centro de ayuda (Help Page con IA) ===== -->
+  <section class="seccion" id="ayuda">
+    <div class="contenedor ayuda">
+      <div class="ayuda-texto">
+        <span class="etiqueta">Asistencia con Inteligencia Artificial</span>
+        <h2>¿Tenés otra duda? Preguntale a Sofía</h2>
+        <p>Sofía es nuestra asistente virtual. Responde al instante sobre horarios, servicios y urgencias, las 24 horas.</p>
+        <ul>
+          <li>✔ Respuestas basadas en la información oficial de la clínica</li>
+          <li>✔ Te orienta si tenés una urgencia</li>
+          <li>✔ Disponible en el chat y en el centro de ayuda</li>
+        </ul>
+        <div class="hero-botones">
+          <a href="/help" class="btn btn-primario">Abrir centro de ayuda</a>
+          <button class="btn btn-secundario" data-abrir-chat>Abrir el chat</button>
+        </div>
+      </div>
+      <div class="ayuda-ejemplo">
+        <div class="burbuja usuario">¿Atienden urgencias los domingos?</div>
+        <div class="burbuja bot">Sí, las urgencias se atienden todos los días. Fuera del horario habitual se solicitan llamando al número de guardia.</div>
+        <div class="burbuja usuario">¿Y si es para mi hijo de 8 años?</div>
+        <div class="burbuja bot">La clínica no atiende urgencias pediátricas en menores de 12 años. Te recomendamos acudir al Hospital Pediátrico más cercano.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pie de página ===== -->
+  <footer class="footer">
+    <div class="contenedor">
+      <p><strong>Sonrisa Uruguaya</strong> · Clínica Dental · Montevideo, Uruguay</p>
+      <p class="footer-chico">Sitio realizado como actividad educativa · UTU 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- ===== Chatbot de Chatbase (burbuja) =====
+       Reemplazar TU_AGENT_ID por el ID del agente (Chatbase → Settings → General). -->
+  <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="TU_AGENT_ID";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>
